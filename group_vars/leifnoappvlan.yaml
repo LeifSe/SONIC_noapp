@@ -74,7 +74,8 @@ sonic_bgp_fabriclink_neighbors_aflist:
     safi: evpn
 sonic_bgp_spineleaf_peergroup:
   advertisement_interval: 5
-  bfd: true
+  bfd:
+    enabled: true
   capability:
     extended_nexthop: true
   name: spine-leaf

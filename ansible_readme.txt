@@ -9,9 +9,9 @@ verify the version using the following command.
 ansible 2.10 or later
   config file = /etc/ansible/ansible.cfg
   configured module search path = ['/root/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
-  ansible python module location = /usr/local/lib/python3.7/dist-packages/ansible
+  ansible python module location = /usr/local/lib/python3.8/dist-packages/ansible
   executable location = /usr/local/bin/ansible
-  python version = 3.7.8 (default, Jun 29 2020, 05:46:05) [GCC 5.4.0 20160609]
+  python version = 3.8.10 (default, Jun 29 2020, 05:46:05) [GCC 5.4.0 20160609]
 
 2. install the following FDC supported Ansible roles from https://galaxy.ansible.com/dell-networking
 	Use this command to install the latest version of the SONiC collection from Ansible Galaxy:

@@ -33,10 +33,9 @@ sonic_bgp_af:
     bgp_as: '{{bgp_asn}}'
   - address_family:
       afis:
-        - advertise_prefix:
-            - afi: ipv4
-              safi: unicast
-          afi: l2vpn
+        - afi: l2vpn
+          route_advertise_list:
+            - advertise_afi: ipv4
           safi: evpn
         - afi: ipv4
           redistribute:
